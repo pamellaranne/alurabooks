@@ -1,0 +1,137 @@
+.carrossel__titulo{
+    text-transform: uppercase;
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 1.125em;
+    text-align: center;
+    background-color: var(--branco);
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--branco);
+    margin: 1em;
+    padding: 0 0 1em 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+
+.card__bloco1__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    padding: 1.2em;
+}
+
+.card__bloco1__titulo2{
+    color: var(--azul-escuro);
+    font-weight: 700;
+    padding: 0 3em 1em 1.2em;
+}
+
+.card__bloco1__paragrafo{
+    font-size: 0.875em;
+    color: var(--preto);
+    padding: 0 3em 1em 1.2em;
+}
+
+.card__bloco1__imagens{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 1.2em;
+    gap:1em;
+}
+
+.card__bloco2__logoangular{
+    padding: 1em 1.2em 2em 0;
+}
+
+.card__bloco2__botao{
+    display: flex;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8em 2.3em 0.8em 2em;
+    margin-right: 1em;
+}
+
+@media screen and (min-width: 1024px){
+
+    .carrossel__titulo{
+        font-size: 1.625em;
+    }
+
+    .swiper-pagination{
+        padding: 1em 0 3.5em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+    
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top:60%;
+    }
+
+    .card{
+        width:40%;
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width: 1728px){
+
+   .carrossel__container{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    align-items: center;
+   }
+
+  .swiper-pagination{
+    padding: 0;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+
+  .swiper{
+    width: 50%;
+  }
+
+  .card{
+    width: 45%;
+    margin-top: 6em;
+  }
+
+  .card__bloco1__titulo{
+    font-size: 2em;
+    padding-left: 0.5em;
+  }
+
+  .card__bloco1__titulo2{
+    font-size: 1.125em;
+  }
+
+  .card__bloco1__paragrafo{
+    font-size: 1em;
+  }
+}

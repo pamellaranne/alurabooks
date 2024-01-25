@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburguer{
     width: 1.5em;
     height: 1.5em;
-    background-image: url(menu.png);
+    background-image: url("../assets/menu.png");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -79,7 +79,7 @@
 
 .container__botao:checked~.container__rotulo{
     background-color: var(--azul-escuro);
-    background-image: url(menubranco.png);
+    background-image: url("../assets/menubranco.png");
 }
 
 @media screen and (min-width:1024px) {

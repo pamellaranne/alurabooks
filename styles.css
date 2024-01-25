@@ -16,9 +16,6 @@
     --fonte-secundaria:"Josefin";
     --cinza: #474646;
     --cinza-claro:#858585;
-
-
-
 }
 
 body{
@@ -26,6 +23,5 @@ body{
     font-family: var(--fonte-principal);
     font-size: 1em;
     font-weight: 400;
-
 }
 

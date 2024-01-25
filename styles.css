@@ -21,7 +21,7 @@
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 400;
 }
 

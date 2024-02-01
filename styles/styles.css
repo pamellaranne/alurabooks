@@ -1,9 +1,9 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
-@import url("styles/topicos.css");
-@import url("styles/contato.css");
-@import url("styles/rodape.css");
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(topicos.css);
+@import url(contato.css);
+@import url(rodape.css);
 
 :root{
     --cor-de-fundo:#EBECEE;
@@ -16,6 +16,9 @@
     --fonte-secundaria:"Josefin";
     --cinza: #474646;
     --cinza-claro:#858585;
+
+
+
 }
 
 body{
@@ -23,5 +26,6 @@ body{
     font-family: var(--fonte-principal);
     font-size: 1em;
     font-weight: 400;
+
 }
 

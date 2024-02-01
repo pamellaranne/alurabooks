@@ -31,7 +31,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url(pesquisa.png);
+    background: url("../assets/pesquisa.png");
     background-repeat: no-repeat;
     background-position: 1em;
 }

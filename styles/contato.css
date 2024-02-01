@@ -22,7 +22,7 @@
 }
 
 .contato__email::placeholder{
-    background: url(email.png);
+    background: url("../assets/email.png");
     background-repeat: no-repeat;
     color: var(--azul-escuro);
     padding-left: 2em;
